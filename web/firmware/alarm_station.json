@@ -1,0 +1,14 @@
+{
+  "name": "Alarm Station",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "alarm_station.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

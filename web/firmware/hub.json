@@ -1,0 +1,14 @@
+{
+  "name": "Hub",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "hub.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

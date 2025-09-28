@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Unethings Web Flasher</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="https://unpkg.com/esp-web-tools@8.0.6/dist/web/install-button.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Unethings Web Flasher</h1>
+      <p class="subtitle">브라우저에서 ESP32 기기를 플래싱하세요</p>
+    </header>
+
+    <section>
+      <h2>Manifest 플래셔</h2>
+      <esp-web-install-button manifest="firmware/i2s_speaker.json"></esp-web-install-button>
+      <esp-web-install-button manifest="firmware/alarm_station.json"></esp-web-install-button>
+      <esp-web-install-button manifest="firmware/garage_door.json"></esp-web-install-button>
+      <esp-web-install-button manifest="firmware/hub.json"></esp-web-install-button>
+    </section>
+
+    <section>
+      <h2>수동 플래셔</h2>
+      <button id="connectBtn">보드 연결</button>
+      <input type="file" id="binFile" accept=".bin" />
+      <button id="flashBtn">플래시</button>
+      <pre id="log"></pre>
+    </section>
+  </div>
+</body>
+</html>

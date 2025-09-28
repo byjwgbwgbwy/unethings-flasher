@@ -1,0 +1,14 @@
+{
+  "name": "I2S Speaker",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "i2s_speaker.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}

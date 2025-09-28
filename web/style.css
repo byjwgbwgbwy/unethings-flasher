@@ -1,0 +1,7 @@
+:root{ --bg:#0b1220; --card:#121b2e; --txt:#e8eefc; --muted:#92a6cc; --brand:#2bd4a9; --accent:#2f81f7;}
+body{margin:0;font-family:sans-serif;background:var(--bg);color:var(--txt)}
+.wrap{max-width:800px;margin:auto;padding:20px}
+header{border-bottom:1px solid #223153;margin-bottom:20px}
+.subtitle{color:var(--muted)}
+button{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 12px;margin:6px;cursor:pointer}
+pre{background:#111;border-radius:8px;padding:10px;min-height:120px}

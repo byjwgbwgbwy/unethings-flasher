@@ -1,0 +1,14 @@
+{
+  "name": "Garage Door",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "garage_door.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
